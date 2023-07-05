@@ -5,6 +5,6 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World!"
