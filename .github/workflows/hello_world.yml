@@ -17,6 +17,13 @@ jobs:
       - name: hello world
         run: echo "Hello world!"
         shell: bash
+  hi:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: hello world
+        run: echo "Hi!"
+        shell: bash
   goodbye:
     runs-on: ubuntu-22.04
     steps:
